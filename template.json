@@ -1,0 +1,51 @@
+{
+    "Actor":{
+        "types": ["PC"],
+        "templates":{
+            "background":{
+                "age": 0,
+                "biography": ""
+        },
+            "stats":{
+                "STR": 10,
+                "CON": 10,
+                "TAM": 10,
+                "DEX": 10,
+                "INT": 10,
+                "POD": 10,
+                "CHA": 10
+            }
+        },
+        "PC":{
+            "skills":{
+                "common":{
+                    "customs": 0,
+                    "willness": 0
+                },
+                "professional": {}
+            }
+        }
+    },
+    "Item":{
+        "types":["armour","weapon","misc"],
+        "templates":{
+            "name":"",
+            "carga": 0,
+            "price": 0,
+            "carried": true,
+            "place": ""
+        },
+        "armour":{
+            "location": "",
+            "AP": 0,
+            "HP": 0
+        },
+        "weapon":{
+            "damage": 0,
+            "damage_modifier": true,
+            "size": 0,
+            "reach": "M"
+        },
+        "misc": {}
+    }
+}
