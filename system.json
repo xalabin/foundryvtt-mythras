@@ -3,7 +3,7 @@
     "title": "Mythras game system",
     "description": "Mythras is the latest iteration of the game originally known as RuneQuest. Its rules have continued evolving, to further simplify and speed up conflict resolution. The base concept of rolling your skill value or less on a d100 means it is very easy to houserule and quickly fades into the background with use.",
     "version": "0.0.1",
-    "templateVersion": 1,
+    "minimumCoreVersion": "0.5.1",
     "author": "Néstor C.",
     "scripts": [],
     "esmodules": [],
