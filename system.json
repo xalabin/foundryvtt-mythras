@@ -22,7 +22,7 @@
     "gridUnits": "m",
     "primaryTokenAttribute": null,
     "secondaryTokenAttribute": null,
-    "url": "file:///home/nestor/Desarrollos/mythras/",
-    "manifest": "file:///home/nestor/Desarrollos/mythras/system.json",
-    "download":"file:///home/nestor/Desarrollos/mythras.zip"
+    "url": "https://github.com/xalabin/foundryvtt-mythras",
+    "manifest": "https://github.com/xalabin/foundryvtt-mythras/blob/master/system.json",
+    "download":"https://github.com/xalabin/foundryvtt-mythras/archive/master.zip"
 }
