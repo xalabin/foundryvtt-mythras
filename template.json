@@ -1,51 +1,260 @@
 {
-    "Actor":{
-        "types": ["PC"],
-        "templates":{
-            "background":{
-                "age": 0,
-                "biography": ""
-        },
-            "stats":{
-                "STR": 10,
-                "CON": 10,
-                "TAM": 10,
-                "DEX": 10,
-                "INT": 10,
-                "POD": 10,
-                "CHA": 10
-            }
-        },
-        "PC":{
-            "skills":{
-                "common":{
-                    "customs": 0,
-                    "willness": 0
-                },
-                "professional": {}
-            }
-        }
-    },
-    "Item":{
-        "types":["armour","weapon","misc"],
-        "templates":{
-            "name":"",
-            "carga": 0,
-            "price": 0,
-            "carried": true,
-            "place": ""
-        },
-        "armour":{
-            "location": "",
-            "AP": 0,
-            "HP": 0
-        },
-        "weapon":{
-            "damage": 0,
-            "damage_modifier": true,
-            "size": 0,
-            "reach": "M"
-        },
-        "misc": {}
-    }
+	"Actor": {
+		"types": ["character"],
+		"character": {
+			"biography": "",
+			"characteristics": {
+				"str" : {
+					"label": "Strength",
+					"value": "0",
+					"modifier": []
+				},
+				"con" : {
+					"label": "Constitution",
+					"value": "0",
+					"modifier": []
+				},
+				"siz" : {
+					"label": "Size",
+					"value": "0",
+					"modifier": []
+				},
+				"dex" : {
+					"label": "Dextrity",
+					"value": "0",
+					"modifier": []
+				},
+				"int" : {
+					"label": "Inteligence",
+					"value": "0",
+					"modifier": []
+				},
+				"pow" : {
+					"label": "Power",
+					"value": "0",
+					"modifier": []
+				},
+				"cha" : {
+					"label": "Charisma",
+					"value": "0",
+					"modifier": []
+				}
+			},
+			"attributes": {
+				"lp" : {
+					"label": "Luck Points",
+					"current" : "calculate",
+					"value": "0",
+					"modifier": []
+				},
+				"acc" : {
+					"label": "Action Points",
+					"value": "0",
+					"modifier": []
+				},
+				"dm" : {
+					"label": "Damage Modifier",
+					"value": "0",
+					"modifier": []
+				},
+				"expm" : {
+					"label": "Experience modifier",
+					"value": "0",
+					"modifier": []
+				},
+				"cr" : {
+					"label": "curation rithm",
+					"value": "0",
+					"modifier": []
+				},
+				"mov" : {
+					"label": "Movement Rate",
+					"value": "0",
+					"modifier": []
+				},
+				"ini" : {
+					"label": "Initiative",
+					"value": "0",
+					"modifier": []
+				},
+				"inip" : {
+					"label": "Initiative penalty",
+					"value": "0",
+					"modifier": []
+				},
+				"mp" : {
+					"label": "Magic points",
+					"current": "calculate",
+					"value": "0",
+					"modifier": []
+				}
+			},
+			"life" : {
+				"right_leg":{
+					"label": "Right Leg",
+					"current": "calculate",
+					"value":"0",
+					"loc":"01-03",
+					"ap":"0",
+					"armour_type":"None",
+					"enc":"0"
+			},
+				"left_leg":{
+						"label": "Left Leg",
+						"current": "calculate",
+						"value":"0",
+						"loc":"04-06",
+						"ap":"0",
+						"armour_type":"None",
+						"enc":"0"
+				},
+				"abdomen":{
+						"label": "Abdomen",
+						"current": "calculate",
+						"value":"0",
+						"loc":"07-09",
+						"ap":"0",
+						"armour_type":"None",
+						"enc":"0"
+				},
+				"chest":{
+						"label": "Chest",
+						"current": "calculate",
+						"value":"0",
+						"loc":"10-12",
+						"ap":"0",
+						"armour_type":"None",
+						"enc":"0"
+				},
+				"right_arm":{
+					"label": "Right Arm",
+					"current": "calculate",
+					"value":"0",
+					"loc":"13-15",
+					"ap":"0",
+					"armour_type":"None",
+					"enc":"0"
+			},
+				"left_arm":{
+						"label": "Left Arm",
+						"current": "calculate",
+						"value":"0",
+						"loc":"16-18",
+						"ap":"0",
+						"armour_type":"None",
+						"enc":"0"
+				},
+					"head":{
+						"label": "Head",
+						"current": "calculate",
+						"value":"0",
+						"loc":"19-20",
+						"ap":"0",
+						"armour_type":"None",
+						"enc":"0"
+				}
+			},
+			"skills_common": {
+				"athletics":{
+					"label": "Athletics",
+					"value": "0"
+				},
+				"boating":{
+					"label": "Boating",
+					"value": "0"
+				},
+				"brawn":{
+					"label": "Brawn",
+					"value": "0"
+				},
+				"conceal":{
+					"label": "Conceal",
+					"value": "0"
+				},
+				"customs":{
+					"label": "Customs",
+					"value": "0"
+				},
+				"dance":{
+					"label": "Dance",
+					"value": "0"
+				},
+				"deceit":{
+					"label": "Deceit",
+					"value": "0"
+				},
+				"drive":{
+					"label": "Drive",
+					"value": "0"
+				},
+				"endurance":{
+					"label": "Endurance",
+					"value": "0"
+				},
+				"evade":{
+					"label": "Evade",
+					"value": "0"
+				},
+				"first_aid":{
+					"label": "First Aid",
+					"value": "0"
+				},
+				"influence":{
+					"label": "Influence",
+					"value": "0"
+				},
+				"insight":{
+					"label": "Insight",
+					"value": "0"
+				},
+				"locale":{
+					"label": "Locale",
+					"value": "0"
+				},
+				"native_tongue":{
+					"label": "Native Tongue",
+					"value": "0"
+				},
+				"perception":{
+					"label": "Perception",
+					"value": "0"
+				},
+				"ride":{
+					"label": "Ride",
+					"value": "0"
+				},
+				"sing":{
+					"label": "Sing",
+					"value": "0"
+				},
+				"stealth":{
+					"label": "Stealth",
+					"value": "0"
+				},
+				"swim":{
+					"label": "Swim",
+					"value": "0"
+				},
+				"unarmed":{
+					"label": "Unarmed",
+					"value": "0"
+				},
+				"willpower":{
+					"label": "Willpower",
+					"value": "0"
+				}
+			},
+			"skills_combat":{},
+			"skills_prof":{}
+		}
+	},
+	"Item": {
+		"types": ["item"],
+		"item": {
+			"description": "",
+			"quantity": 1,
+			"weight": 0,
+			"attributes": {}
+		}
+	}
 }
